@@ -1,78 +1,32 @@
-# CallbackLab
+# Lab Archive
 
-## 這是什麼 (What)
+早期的 Java 練習與框架範例。每個目錄對應一個原始 repository。
 
-CallbackLab 是一個 Java Callback 設計模式的學習專案。這個專案示範了如何在 Java 中實作和使用 Callback 介面，透過 Teacher-Student 互動模式來展示 Callback 的工作原理。
+原始 Git 歷史可從本 repository 的 main 追溯。
 
-## 為什麼需要這個 (Why)
-
-- **學習目的**: 理解 Java 中 Callback 設計模式的實作方式
-- **設計模式實踐**: 提供具體的程式碼範例來學習 Callback 模式
-- **程式設計教學**: 適合作為 Java 進階程式設計的教學材料
-- **非同步程式設計基礎**: 為學習更複雜的非同步程式設計打下基礎
-
-## 如何使用 (How)
-
-### 系統需求
-
-- Java 8 或更高版本
-- IDE (如 Eclipse、IntelliJ IDEA) 或文字編輯器
-
-### 編譯和執行
-
-1. 複製專案到本地端
-```bash
-git clone https://github.com/jimc1682000/CallbackLab.git
-cd CallbackLab
-```
-
-2. 編譯 Java 檔案
-```bash
-javac -d bin src/tw/com/jimmy/lab/*.java
-```
-
-3. 執行程式
-```bash
-java -cp bin tw.com.jimmy.lab.ClassRoom
-```
-
-### 專案結構
-
-```
-CallbackLab/
-├── src/tw/com/jimmy/lab/
-│   ├── Callback.java      # Callback 介面定義
-│   ├── Teacher.java       # 教師類別，執行 callback
-│   ├── Student.java       # 學生類別，實作 callback
-│   └── ClassRoom.java     # 主程式，示範使用方式
-├── bin/                   # 編譯後的 class 檔案
-└── README.md             # 專案說明文件
-```
-
-### 核心概念
-
-1. **Callback 介面**: 定義回呼方法的契約
-2. **實作類別**: Student 實作 Callback 介面
-3. **呼叫者**: Teacher 接受 Callback 並在適當時機呼叫
-4. **使用範例**: ClassRoom 展示完整的使用流程
-
-## 開發者資訊 (Who)
-
-- **作者**: Jimmy Chen
-- **GitHub**: [jimc1682000](https://github.com/jimc1682000)
-- **專案類型**: Java 學習專案
-- **授權**: MIT License
-
-## 相關資源
-
-- [Java Callback Pattern 說明](https://www.oracle.com/java/)
-- [設計模式相關文件](https://refactoring.guru/design-patterns)
-- [Java 官方文件](https://docs.oracle.com/javase/)
-
-## 貢獻指南
-
-歡迎提交 Issue 和 Pull Request。請參閱 [CONTRIBUTING.md](CONTRIBUTING.md) 了解詳細的貢獻指南。
-
-## 授權
-
-本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案。
+| 目錄 | 原分支 | 匯入的 SHA | Commit 數 |
+| --- | --- | --- | ---: |
+| [CallbackLab](CallbackLab/) | `main` | `d785f0fe289c4ec2fb953e439351abc6937c36e8` | 3 |
+| [GreatestCommonDivisorLab](GreatestCommonDivisorLab/) | `master` | `0a33d247bd4a3984236b3da8ab1e63ad09361510` | 2 |
+| [Java8InterfaceLab](Java8InterfaceLab/) | `master` | `9feb03914efa2442ac349f2905343cafb952de19` | 2 |
+| [MyFirstCompletableFutureLab](MyFirstCompletableFutureLab/) | `master` | `592c0668f98a0c2b56ea99c2f27ccface7774b62` | 2 |
+| [MySortLab](MySortLab/) | `master` | `e12ac297e8cb438840894c431238123630f2a17a` | 2 |
+| [JUnitLab](JUnitLab/) | `master` | `5e72a6ffefca626bc346ae815658de81d8018515` | 2 |
+| [OpenAWebPageLab](OpenAWebPageLab/) | `master` | `4dcb3cd0d1d66e7eecf091110dbcd26df327d4b5` | 2 |
+| [PropertiesReaderLab](PropertiesReaderLab/) | `master` | `64fafcf66321f726395a3a01fec1628bfded8d73` | 2 |
+| [RmiClientLab](RmiClientLab/) | `master` | `ed0868c19742fca60574432ffc2e2bb9a5e807c5` | 2 |
+| [RmiServerLab](RmiServerLab/) | `master` | `dc55f9a627dab15f1cec067729935b3b3ec4518a` | 2 |
+| [DesignPattern](DesignPattern/) | `master` | `35100af8fefb99918a13b25e51181176aae31448` | 3 |
+| [GetClientUsernameLab](GetClientUsernameLab/) | `master` | `62921ae0a814154b4f008154b6dd6661c2b67d71` | 3 |
+| [JavaMailLab](JavaMailLab/) | `master` | `ad5b2a2cf7b3044f4584ebe859ee338cae0831f5` | 3 |
+| [JmsLab](JmsLab/) | `master` | `8daf033b0450a82a731dc7a17946a1a3343aee87` | 3 |
+| [JnaLab](JnaLab/) | `master` | `413aeac67a457a8f1b09e4db417b5d8fd8e35b4b` | 2 |
+| [MyFirstHibernateLab](MyFirstHibernateLab/) | `master` | `606692d745ae0887f78b8d33b0b4e58a0de41bfa` | 2 |
+| [PoiLab](PoiLab/) | `master` | `193507c4c359a9c3c104b2c059e5f79096da6569` | 3 |
+| [SmackLab](SmackLab/) | `master` | `3f67e0965881f24bc92c9fa2c1d4e271bf8efb02` | 3 |
+| [YahooFinanceLab](YahooFinanceLab/) | `master` | `3acac6f18ba901e70d9757585df69e1292755b1f` | 3 |
+| [ZkBarcodeLab](ZkBarcodeLab/) | `master` | `13b2ef85b5af24cae5a325c647fabdb2dd63bd47` | 3 |
+| [ZkBasicComponentLab](ZkBasicComponentLab/) | `master` | `5d26e962b91734612beb384b92147f82893a29f2` | 3 |
+| [ZkPassValueBetweenWindowsLab](ZkPassValueBetweenWindowsLab/) | `master` | `6959a13ea328295c548c48217fe4b9ea0542ce9f` | 3 |
+| [ZkTemplateLab](ZkTemplateLab/) | `master` | `7f127ff02f7cd173b606c50f7d8b92762de6ace8` | 2 |
+| [ZkTimerLab](ZkTimerLab/) | `master` | `652f18bce815653eb2c3ed440c43d98e9cf245b4` | 4 |

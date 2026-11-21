@@ -1,0 +1,22 @@
+<?page title="ZkBasicComponentLab"?>
+<window title="George" border="normal" width="500px">
+	<vlayout>
+		<label value="You are using: ${desktop.webApp.version}" />
+		<hlayout>
+			<label value="Enter Something: " />
+			<textbox id="whatYouEnter" value="" />
+		</hlayout>
+		<button label="Magic!!"
+			onClick='self.setLabel(whatYouEnter.getValue());' />
+		<!-- 使用doPopup，點選視窗外，視窗就會消失，但實際上還存在 -->
+		<button label="Surprise!!" onClick="surpriseWin.doPopup()" />
+		<!-- 使用doModal，點選視窗外，視窗不會消失，要使用detach，且使用detach後，該Component就被永遠移除，再次要開啟就會錯誤 -->
+		<!-- 		<button label="Surprise!!" onClick="surpriseWin.doModal()" /> -->
+		<window id="surpriseWin" title="SURPRISE!!" border="normal"
+			mode="embedded" visible="false" width="200px">
+			<label value="SURPRISE!!" />
+			<!-- 使用doModal要離開時，使用detach -->
+			<!-- 			<button label="detach" onClick="surpriseWin.detach()" /> -->
+		</window>
+	</vlayout>
+</window>
