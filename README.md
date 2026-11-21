@@ -30,3 +30,15 @@
 | [ZkPassValueBetweenWindowsLab](ZkPassValueBetweenWindowsLab/) | `master` | `6959a13ea328295c548c48217fe4b9ea0542ce9f` | 3 |
 | [ZkTemplateLab](ZkTemplateLab/) | `master` | `7f127ff02f7cd173b606c50f7d8b92762de6ace8` | 2 |
 | [ZkTimerLab](ZkTimerLab/) | `master` | `652f18bce815653eb2c3ed440c43d98e9cf245b4` | 4 |
+
+## Other exercises
+
+| Directory | Source branches retained |
+| --- | --- |
+| [LeetCode](LeetCode/) | `master` |
+| [kubernetes-101](kubernetes-101/) | `main` |
+| [aws-bedrock-workshop](aws-bedrock-workshop/) | `main` |
+| [gliacloud](gliacloud/) | `master` |
+| [realworld](realworld/) | `master`, `updated-readme` |
+
+The `gliacloud` exercises include a pinned submodule. Use `git submodule update --init` to obtain its original contents.

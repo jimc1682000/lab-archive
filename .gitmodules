@@ -1,0 +1,3 @@
+[submodule "gliacloud-crawler-tutorial"]
+	path = gliacloud/Crawler/CrawlerTutorial
+	url = https://github.com/leVirve/CrawlerTutorial.git
